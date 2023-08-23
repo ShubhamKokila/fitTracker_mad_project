@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/aclonica"
+        android:text="FIT TRACKER"
+        android:textColor="@color/black"
+        android:textSize="49dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/kg"
+        android:layout_width="241dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/lpink"
+        android:fontFamily="@font/aclonica"
+        android:text="Kg -> LB"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+    <Button
+        android:id="@+id/ex"
+        android:layout_width="241dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="404dp"
+        android:backgroundTint="@color/lpink"
+        android:fontFamily="@font/aclonica"
+        android:text="Exercises"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+    <Button
+        android:id="@+id/bmi"
+        android:layout_width="241dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/lpink"
+        android:fontFamily="@font/aclonica"
+        android:text="BMI Calculator"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kg" />
+
+    <Button
+        android:id="@+id/fat"
+        android:layout_width="241dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/lpink"
+        android:fontFamily="@font/aclonica"
+        android:text="Body Fat Calculator"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bmi" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="187dp"
+        android:layout_height="156dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@drawable/cardio"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/stpw"
+        android:layout_width="49dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ex"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/stp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

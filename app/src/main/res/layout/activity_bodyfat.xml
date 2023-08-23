@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="Body Fat Calculator"
+        android:textAlignment="center"
+        android:textColor="@color/dpur"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/lpink"
+            android:text="Height Value (cm):"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:inputType="numberDecimal"
+            android:hint="Enter Height Value in cm"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Neck Value (cm):"
+            android:textColor="@color/lpink"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/neck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="48dp"
+            android:hint="Enter Neck Value in cm"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/lpink"
+            android:text="Belly Value (cm):"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/abdomen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Enter Belly Value in cm"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="369dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/aclonica"
+        android:textSize="25dp"
+        android:backgroundTint="@color/lpink"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        />
+
+
+
+</LinearLayout>

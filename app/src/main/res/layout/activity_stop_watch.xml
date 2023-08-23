@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="410dp"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".StopWatch">
+
+    <TextView
+        android:id="@+id/time_view"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="60sp" />
+
+    <!--        app:layout_constraintEnd_to_Endof="parent"-->
+    <!--        app:layout_constraintStart_to_Startof="parent"-->
+    <!--        app:layout_constraintTop_toBottomof="@+id/heading" />-->
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="172dp"
+        android:layout_height="94dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/lpink"
+        android:fontFamily="@font/aclonica"
+        android:onClick="onClickStart"
+        android:text="Start"
+        android:textColor="@color/black"
+        android:textSize="28dp" />
+
+    <Button
+
+        android:id="@+id/stop_button"
+        android:layout_width="170dp"
+        android:layout_height="91dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/lpink"
+        android:fontFamily="@font/aclonica"
+        android:onClick="onClickStop"
+        android:text="stop"
+        android:textColor="@color/black"
+        android:textSize="28dp" />
+    <!--        app:layout_constraintEnd_to_Endof="parent"-->
+    <!--        app:layout_constraintStart_to_Startof="parent"-->
+    <!--        app:layout_constraintTop_toBottomof="@+id/heading"/>-->
+    <Button
+
+        android:id="@+id/reset_button"
+        android:layout_width="168dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="2dp"
+        android:backgroundTint="@color/lpink"
+        android:fontFamily="@font/aclonica"
+        android:onClick="onClickReset"
+        android:text="reset"
+        android:textColor="@color/black"
+        android:textSize="28dp" />
+    <!--    app:layout_constraintEnd_to_Endof="parent"-->
+    <!--    app:layout_constraintStart_to_Startof="parent"-->
+    <!--    app:layout_constraintTop_toBottomof="@+id/heading"/>-->
+
+</LinearLayout>

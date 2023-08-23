@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chest">
+
+    <TextView
+        android:id="@+id/heading3"
+        android:layout_width="407dp"
+        android:layout_height="72dp"
+        android:fontFamily="@font/aclonica"
+        android:text=" Chest Workout"
+        android:textColor="@color/black"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/heading7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="Incline Bench press"
+        android:textColor="@color/lpink"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/heading9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/aclonica"
+        android:text="8 Reps X 4 Sets"
+        android:textColor="@color/dpur"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading8"
+        app:layout_constraintVertical_bias="0.687">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/heading8"
+        android:layout_width="350dp"
+        android:layout_height="195dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Lie on a bench with feet on the floor. Hold a dumbell in each hand with elbow bend at 90 degrees and palm facing forward on each side of your chest."
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading7"
+        app:layout_constraintVertical_bias="0.086">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="198dp"
+        android:layout_height="239dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.264"
+        app:srcCompat="@drawable/ches" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="189dp"
+        android:layout_height="215dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263"
+        app:srcCompat="@drawable/chest" />
+
+    <ImageView
+        android:id="@+id/bc"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@drawable/back" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

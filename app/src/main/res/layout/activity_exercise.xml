@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercise">
+
+    <ImageView
+        android:id="@+id/eb"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/heading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="TRAINING"
+        android:textColor="@color/black"
+        android:textSize="49dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/sld"
+        android:layout_width="311dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="168dp"
+        android:backgroundTint="@color/lpink"
+        android:fontFamily="@font/aclonica"
+        android:text="Shoulders"
+        android:textColor="@android:color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
+
+    <Button
+        android:id="@+id/arm"
+        android:layout_width="182dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="168dp"
+        android:backgroundTint="@color/lpink"
+        android:fontFamily="@font/aclonica"
+        android:text="ARM"
+        android:textColor="@android:color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.395" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="182dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="168dp"
+        android:backgroundTint="@color/lpink"
+        android:fontFamily="@font/aclonica"
+        android:text="Back"
+        android:textColor="@android:color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/chest"
+        android:layout_width="182dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="168dp"
+        android:backgroundTint="@color/lpink"
+        android:fontFamily="@font/aclonica"
+        android:text="Chest"
+        android:textColor="@android:color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21" />
+</androidx.constraintlayout.widget.ConstraintLayout>
